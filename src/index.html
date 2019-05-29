@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Adonaï Nangui">
+  <meta name="keywords" content="HTML,CSS,Javascript,Bootstrap, Gulp, Sass, scss">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="description" content="Inspired by Ron D. CoFounder at @RonDesignLab">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Bootstrap Login UI - Split Concept | Inspired by Ron D. CoFounder at @RonDesignLab and Coded with heart by Adonaï Nangui</title>
+</head>
+<body>
+
+  <main id="ui-main" class="w-100 h-100 p-5">
+    <div class="w-100 h-100 shadow rounded flip">
+      <div class="flip-left w-50 rounded p-2">
+        <div>
+          <i class="fas fa-coffee fa-2x"></i>
+        </div>
+        <div>
+          <h1 class="font-lobster text-center">
+            Plan your activities and control your progress online
+          </h1>
+          <div class="text-center">
+            <img class="img-fluid"
+              src="imgmin/done_checking.svg" alt="Image Done Checking">
+          </div>
+        </div>
+        <div class="text-center px-5">
+          <a class="d-inline-block" href="#">
+            <i class="fab fa-facebook mr-2 text-white"></i>
+          </a>
+          <a class="d-inline-block" href="#">
+            <i class="fab fa-linkedin-in mr-2 text-white"></i>
+          </a>
+          <a class="d-inline-block" href="#">
+            <i class="fab fa-twitter mr-2 text-white"></i>
+          </a>
+          <a class="d-inline-block" href="#">
+            <i class="fab fa-instagram mr-2 text-white"></i>
+          </a>
+        </div>
+      </div>
+      <div class="flip-right w-50 rounded p-2">
+        <div class="text-right">
+          <button class="btn text-white btn-first active">Sign Up</button>
+          <button class="btn text-white btn-last">Sign In</button>
+        </div>
+        <div class="mx-5">
+          <div class="title-container mb-2">
+            <span class="title first ml-1 active">Sign Up</span>
+            <span class="or">or</span>
+            <span class="title last mr-1">Sign In</span>
+          </div>
+          <form action="#" method="POST" class="first active">
+            <div class="form-group">
+              <label for="register_full_name" class="text-uppercase text-white">Full name</label>
+              <input id="register_full_name" type="text" class="form-control" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <label for="register_e_mail" class="text-uppercase text-white">E-mail</label>
+                <input id="register_e_mail" type="text" class="form-control" placeholder="Your email goes here">
+              </div>
+            <div class="form-group">
+              <label for="register_passwd" class="text-uppercase text-white">Password</label>
+              <input id="register_passwd" type="text" class="form-control" placeholder="***************">
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" id="custom-check-1" name="check" class="custom-control-input">
+              <label class="custom-control-label" for="custom-check-1">I agree all statements in terms of services</label>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn text-white btn-submit shadow-lg">Sign Up</button>
+              <button class="btn btn-link text-white ml-2">I don't have account</button>
+            </div>
+          </form>
+          <form action="#" method="POST" class="last">
+            <div class="form-group">
+                <label for="login_e_mail" class="text-uppercase text-white">E-mail</label>
+                <input id="login_e_mail" type="text" class="form-control" placeholder="Your email goes here">
+              </div>
+            <div class="form-group">
+              <label for="login_passwd" class="text-uppercase text-white">Password</label>
+              <input id="login_passwd" type="text" class="form-control" placeholder="***************">
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" id="custom-check-2" name="check" class="custom-control-input">
+              <label class="custom-control-label" for="custom-check-2">I agree all statements in terms of services</label>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn text-white btn-submit shadow-lg">Sign In</button>
+              <button class="btn btn-link text-white ml-2">I'm already member</button>
+            </div>
+          </form>
+        </div>
+        <div>
+          &nbsp;
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/app.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
