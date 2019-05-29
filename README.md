@@ -1,7 +1,6 @@
-# gulp-setup
-Gulp 4 setup for bootstrap 4
+# boostrap-login-ui
 
-This setup help you to develop faster, it's content bootstrap, jquery, popper.js
+![Image bootstrap login ui](split-login.png "Bootstrap Login UI")
 
 ## Intallation
 
